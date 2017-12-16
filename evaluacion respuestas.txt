@@ -1,0 +1,24 @@
+Ejer2
+
+C-44
+
+Ejer3
+
+el error esta en eque la clase se llama igual que el vector edades , la clase tiene que ser en mayuscula
+
+
+Ejer4
+
+D y G
+
+Ejer5
+
+select alumno.idAlumno,alumno.nombre,evaluacion.resultado 
+from alumno
+left join evaluacion on alumno.idAlumno = evaluacion.idAlumno
+where (evaluacion.resultado >=7)
+sum (evaluacion.resultad=<7)
+right join examen on evaluacion.idExamen = examen.idExamen
+where (examen.idExamen=10)
+inner join pregunta on examen.idExamen = pregunta.idExamen
+select pregunta from pregunta 
